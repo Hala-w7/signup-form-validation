@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login & Sign Up</title>
+        <link rel="stylesheet" href="/asset/vendor/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="/asset/css/master.css">
+    </head>
+    <body>
+        <main>
+            <section class="forms-container">   
+                <section class="signup-section">
+                    <h2 class="text-center">Sign Up</h2>
+                    <form class="signup-form" action="#" method="post">
+                        <div class="mb-3">
+                            <label for="user">User Name</label>
+                            <input type="text" class="form-control" name="signup-username" id="user" required placeholder="Enter your username">
+                            <div id="usernameError" class="form-text text-danger"></div>
+                        </div>  
+                        <div class="mb-3">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" name="signup-email" id="email" required placeholder="Enter your email">
+                            <div id="emailError" class="form-text text-danger"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="signup-pass">Password</label>
+                            <input type="password" class="form-control" name="signup-password" id="signup-pass" required placeholder="Enter your password">
+                            <div id="passwordError" class="form-text text-danger"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone">Phone</label>
+                            <input type="text" class="form-control" name="signup-phone" id="phone" required placeholder="Enter your phone number">
+                            <div id="phoneError" class="form-text text-danger"></div>
+                        </div>                        
+                        <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+                    </form>
+                </section>
+            </section>
+        </main>
+        <script src="/asset/vendor/bootstrap/bootstrap.bundle.min.js"></script>       
+        <script src="/asset/js/main.js"></script>
+    </body>
+</html>
